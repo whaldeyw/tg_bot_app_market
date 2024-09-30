@@ -61,4 +61,4 @@ product =result['data']['states']
 for i in product:
     name = i['data']['name']
     price = i['data']['price']
-    print(price)
+    print(f'{name} | {price}')
